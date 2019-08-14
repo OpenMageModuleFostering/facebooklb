@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>facebooklb</name>
+    <version>2.0.2</version>
+    <stability>stable</stability>
+    <license uri="http://creativecommons.org/licenses/by/3.0/">Creative Commons License </license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Magento Facebook Lit button with open graph support community module</summary>
+    <description>This small extension will help  to install Facebook  like button. Installation and configuration will take approximately 5 minutes.</description>
+    <notes>Magento Facebook Lit button with open graph support community module</notes>
+    <authors><author><name>TemplatesMaster</name><user>TemplatesMaster</user><email>support@templates-master.com</email></author></authors>
+    <date>2016-08-25</date>
+    <time>14:07:46</time>
+    <contents><target name="magecommunity"><dir name="TM"><dir name="FacebookLB"><dir name="Adminhtml"><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Color.php" hash="b45cf8279e6bd8c694b8250308bffad0"/><file name="Font.php" hash="d6deca820eeb371d82c1dce2a71e62a7"/><file name="Lang.php" hash="bf37b86dbb939032323e17640dafa900"/><file name="Layout.php" hash="bd94d7988615b2385e7b0e48d2cd6d18"/><file name="Verb.php" hash="f03267801543001e28a8d6be419b6249"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="9ce1f6f51b911fa79fe803eb20e5e9f9"/></dir><dir name="etc"><file name="adminhtml.xml" hash="a3ae17c1d8149ed88ce02833fca96299"/><file name="config.xml" hash="463f551f2b1cf72b61af144457e32a1d"/><file name="system.xml" hash="d1fd2e56caf13a5028e84498ff42fe73"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="FacebookLB.xml" hash="f873d4784971091cf1c9a5780b1b76f2"/></dir><dir name="template"><dir name="facebooklb"><file name="button_script.phtml" hash="68a395e2b2ce4d8a5ca916700c4b6af3"/><file name="category_products_like.phtml" hash="a5fb41f88e2b18db2afa6c5c657f7dd1"/><file name="head.phtml" hash="fbe38c3836d8edf6b01d959057842e27"/><file name="like.phtml" hash="923928ee044e83f4fd88e0b9128ba004"/><file name="search_script.phtml" hash="c4c60f93e4b8590e66ba75fd27e3ec6a"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="TM_FacebookLB.xml" hash="1bdb2da85b3b5d1281bd95f4af6f5fb0"/></dir></target><target name="magelocale"><dir name="en_US"><file name="TM_FacebookLB.csv" hash="c26a38394d11a94f4f57dbb0b53f8913"/></dir><dir name="es_ES"><file name="TM_FacebookLB.csv" hash="9b8162b95b93969cc29edfca5add91c7"/></dir><dir name="fr_FR"><file name="TM_FacebookLB.csv" hash="02493a99989614d7cc17ac9a42dd67d7"/></dir><dir name="it_IT"><file name="TM_FacebookLB.csv" hash="ea47ec4b6426f58fcd089081eb0fe392"/></dir><dir name="nl_NL"><file name="TM_FacebookLB.csv" hash="63af015b8f5c5f2c82aa794de22af92c"/></dir><dir name="pt_PT"><file name="TM_FacebookLB.csv" hash="2b5737678b98053aac92639a2c178545"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>7.1.0</max></php></required></dependencies>
+</package>
