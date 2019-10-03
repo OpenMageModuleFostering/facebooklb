@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/facebooklb",
+    "name": "OpenMageModuleFostering\/facebooklb",
     "type": "magento-module",
     "license": "Creative-Commons-License-",
     "homepage": "",
     "description": "Magento Facebook Lit button with open graph support community module",
     "authors": [
-    {
-        "name": "TemplatesMaster",
-        "email": "support@templates-master.com"
-    }
-],
+        {
+            "name": "TemplatesMaster",
+            "email": "support@templates-master.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
